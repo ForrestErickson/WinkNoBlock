@@ -4,11 +4,12 @@
    Date: 20210217 Initial release.
    Date: 20210222 Modifed for long type to hold millis() results and check for millis wrap around.
    Date: 20210304 Make constants all upper case.
+   Date: 20210505 Change LED name to match the Arduino default for builtin.   
 */
 
-//For ESP32 Dev Kit on board blue LED.
-//const int LED_BUILTIN = 2;    // ESP32 Kit
-const int LED_BUILTIN = 13;    //Arduino UNO
+//Set LED for Uno or ESP32 Dev Kit on board blue LED.
+const int LED_BUILTIN = 2;    // ESP32 Kit
+//const int LED_BUILTIN = 13;    //Not really needed for Arduino UNO it is defined in library
 const int HIGH_TIME_LED = 900;
 const int LOW_TIME_LED = 100;
 long lastLEDtime = 0;
