@@ -5,3 +5,5 @@ The standard Blink example gets beginners off on a poor programing practice as i
 This example "Winks" the LED, mostly on but brievly off in the main loop so you can tell the loop is running but does not consume all the processor time with delay().
 
 No "magic numbers". All such numbers are defined at the top before setup().
+
+This readme file updated 20210609.
